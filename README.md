@@ -12,3 +12,4 @@ Tools:
 - Verilog HDL
 - Vivado
 - GitHub
+- Git
