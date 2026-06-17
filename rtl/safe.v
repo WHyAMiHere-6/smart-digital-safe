@@ -71,7 +71,7 @@ begin
             unlocked <= 1;
 
             if(unlock_counter > 0)
-                unlock_counter <= unlock_counter - 1;
+                unlock_counter <= unlock_counter - 2;
             else
             begin
                 unlocked <= 0;

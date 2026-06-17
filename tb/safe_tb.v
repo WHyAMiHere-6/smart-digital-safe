@@ -11,11 +11,11 @@ module safe_tb;
     wire alarm;
     wire [1:0] attempts;
 
-    password pm (
+    password_memory pm (
         .stored_password(stored_password)
     );
 
-    safe sc (
+    safe_controller sc (
         .clk(clk),
         .enter(enter),
         .entered_password(entered_password),
